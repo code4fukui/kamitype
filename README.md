@@ -1,73 +1,12 @@
-# lovec library for C beginners
+# kamitype
 
-これはC言語入門者のためのライブラリ、ターミナルだけでゲームを作ったりできます。
+これはC言語入門者のためのライブラリ [liblove.c](liblove.c) を使った、ターミナルでのC言語予約後タイピングゲームです。
 
-## 機能
-
-* スプライト
-
-    画面上でキャラクタを動かせる
-
-* ボタン
-
-    ユーザーインタフェースの提供
-
-* キーボード
-
-    Enterを押さなくてもキー取得できる
+[words_c.h](words_c.h)に定義されているC言語予約語がランダムに表示されるので、打ち込みましょう。20単語打てばクリア！タイム、スピード、ミス数、スコアが表示されます。目指せ300点！
 
 ## 使い方
 
-### [ macos ]
-
-まず、
-
 ```
-#include "liblove.c"
-```
-
-します。
-
-あとは sample.sprite.c などをご覧ください。
-
-### [ other OS ]
-
-liblove.c の調整が要るかもしれません。
-
-## サンプルの動かし方
-
-### わんこ大喧嘩
-```
-% gcc wanco.c
-% ./a.out
-```
-
-### にゃんこかわくだり
-```
-% gcc kawakudari.c
-% ./a.out
-```
-
-### AtoZはやうちゲーム
-```
-% gcc a2z.c
-% ./a.out
-```
-
-### AtoZはやうちゲーム(like BASIC)
-```
-% gcc a2z.BASIC.c
-% ./a.out
-```
-
-### キーコードチェックツール
-```
-% gcc keycheck.c
-% ./a.out
-```
-
-### スプライト サンプル
-```
-% gcc sample.sprite.c
+% gcc kamitype.c
 % ./a.out
 ```
